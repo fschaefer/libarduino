@@ -45,7 +45,7 @@
 #define setpin(port, pin) 	port |= _BV(pin)
 #define clearpin(port, pin)	port &= ~_BV(pin)
 
-void enable_onboard_led(void);
+void onboard_led_enable(void);
 void onboard_led_on(void);
 void onboard_led_off(void);
 

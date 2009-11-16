@@ -26,7 +26,7 @@
 #include "irkeys.h"
 
 /* stuff used in all modes */
-inline void enable_onboard_led(void) {
+inline void onboard_led_enable(void) {
 	setpin_out(DDRB, 5);
 }
 
